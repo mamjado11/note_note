@@ -1,2 +1,2 @@
-# note_note
+# note_app
 note app using flutter 
