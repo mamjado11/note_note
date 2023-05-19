@@ -41,13 +41,8 @@ class _AddNoteState extends State<AddNote> {
                       filled: true,
                       labelText: "write note "),
                 ),
-<<<<<<< HEAD
-                InkWell(
-                  onTap: () {
-=======
                 ElevatedButton(
                   onPressed: () {
->>>>>>> b0f57870121313039d54838349ab3418550538bf
                     showModalBottomSheet(
                       context: context,
                       builder: (context) {
