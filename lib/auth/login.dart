@@ -66,11 +66,10 @@ class _LoginState extends State<Login> {
                 ),
                 Container(
                   height: 50,
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pushReplacementNamed("homepage");
                     },
-                    textColor: Colors.white,
                     child: Text(
                       "sign in ",
                       style: Theme.of(context).textTheme.headline5,

@@ -1,5 +1,5 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last, deprecated_member_use, duplicate_ignore, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers
-
+//gnw git edit
 import 'package:flutter/material.dart';
 
 class AddNote extends StatefulWidget {
@@ -41,8 +41,8 @@ class _AddNoteState extends State<AddNote> {
                       filled: true,
                       labelText: "write note "),
                 ),
-                ElevatedButton(
-                  onPressed: () {
+                InkWell(
+                  onTap: () {
                     showModalBottomSheet(
                       context: context,
                       builder: (context) {
@@ -53,7 +53,7 @@ class _AddNoteState extends State<AddNote> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Please Choose Image ",
+                                "Please Choose Imagesss ",
                                 style: TextStyle(fontSize: 25),
                               ),
                               InkWell(

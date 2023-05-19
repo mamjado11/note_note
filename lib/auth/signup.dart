@@ -77,9 +77,8 @@ class _SignupState extends State<Signup> {
                 ),
                 Container(
                   height: 50,
-                  child: RaisedButton(
+                  child: ElevatedButton(
                     onPressed: () {},
-                    textColor: Colors.white,
                     child: Text(
                       "create account ",
                       style: Theme.of(context).textTheme.headline5,
