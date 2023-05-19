@@ -41,7 +41,7 @@ class _AddNoteState extends State<AddNote> {
                       filled: true,
                       labelText: "write note "),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     showModalBottomSheet(
                       context: context,
@@ -106,18 +106,15 @@ class _AddNoteState extends State<AddNote> {
                       },
                     );
                   },
-                  textColor: Colors.white,
                   child: Text("add image"),
                 ),
                 // ignore: deprecated_member_use
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {},
-                  textColor: Colors.white,
                   child: Text(
                     "add note",
                     style: Theme.of(context).textTheme.headline5,
                   ),
-                  padding: EdgeInsets.symmetric(horizontal: 100, vertical: 10),
                 ),
               ],
             ))
