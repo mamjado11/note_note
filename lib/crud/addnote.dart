@@ -53,7 +53,7 @@ class _AddNoteState extends State<AddNote> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "Please Choose Image ",
+                                "Please Choose Imagesss ",
                                 style: TextStyle(fontSize: 25),
                               ),
                               InkWell(
