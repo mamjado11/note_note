@@ -1,5 +1,5 @@
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last, deprecated_member_use, duplicate_ignore, prefer_const_literals_to_create_immutables, avoid_unnecessary_containers
-
+//gnw git edit
 import 'package:flutter/material.dart';
 
 class AddNote extends StatefulWidget {
@@ -41,13 +41,8 @@ class _AddNoteState extends State<AddNote> {
                       filled: true,
                       labelText: "write note "),
                 ),
-<<<<<<< HEAD
                 InkWell(
                   onTap: () {
-=======
-                ElevatedButton(
-                  onPressed: () {
->>>>>>> b0f57870121313039d54838349ab3418550538bf
                     showModalBottomSheet(
                       context: context,
                       builder: (context) {
